@@ -5,6 +5,16 @@
 .Main-content {
     margin-top: 0px !important;
 	}
+.custom-filter-container[class*="custom-filter-view-buttons"] .filterDropdown.sqs-block .archive-group-list li a:hover, .custom-filter-container[class*="custom-filter-view-buttons"] .filterDropdown.sqs-block .archive-group-list li a.active {
+  	border: 1px solid #fff !important;
+    background-color: transparent !important;
+    color: #212121;
+	}
+.custom-filter-container[class*="custom-filter-view-buttons"] .filterDropdown.sqs-block .archive-group-list li a:hover, .custom-filter-container[class*="custom-filter-view-buttons"] .filterDropdown.sqs-block .archive-group-list li a {
+    background-color: transparent !important;
+    color: #212121;
+    border: 1px solid rgba(255,255,255, 0.5);
+	}
 }
   .Main {
     background-color: transparent !important;
